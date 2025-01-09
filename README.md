@@ -1,7 +1,7 @@
 # ABP_Bienesraices
 ## Proyecto de programación   
 ## Descripción  
-es una página web de bienes raíces desarrollada con Django que permite mostrar una lista de propiedades disponibles con sus respectivas imágenes, precios y descripciones. La página incluye un menú de navegación interactivo que facilita el acceso a secciones como inicio, servicios, propiedades y contacto. Las propiedades se presentan en una cuadrícula visualmente atractiva, cada una con detalles básicos y enlaces para obtener más información, ofreciendo una experiencia de usuario moderna y funcional.
+Es una página web de bienes raíces desarrollada con Django que permite mostrar una lista de propiedades disponibles con sus respectivas imágenes, precios y descripciones. La página incluye un menú de navegación interactivo que facilita el acceso a secciones como inicio, servicios, propiedades y contacto. Las propiedades se presentan en una cuadrícula visualmente atractiva, cada una con detalles básicos y enlaces para obtener más información, ofreciendo una experiencia de usuario moderna y funcional.
 ### Introduccion 
 El presente proyecto consiste en el desarrollo de una página web de bienes raíces utilizando Django, un framework robusto y eficiente para aplicaciones web. La plataforma tiene como objetivo principal exhibir una lista de propiedades disponibles, proporcionando a los usuarios información detallada Además, se incorpora una navegación intuitiva que permite acceder a secciones clave como inicio, servicios, propiedades y contacto, facilitando la interacción y búsqueda de información. Este proyecto busca ofrecer una experiencia visual atractiva y funcional, optimizada para usuarios interesados en adquirir propiedades.
 ### Contexto del problema
@@ -17,39 +17,47 @@ Estos describen las funcionalidades que el sistema debe cumplir:
 #### 1.1 Gestión de Propiedades
 El sistema debe permitir la visualización de una lista de propiedades disponibles con la siguiente información:
 -Imagen destacada.
--Nombre de la propiedad.
+-Ubicación de la propiedad.
 -Precio de venta.
--Ubicación general (ciudad o barrio).
 -Descripción breve.
+-Número de Habitaciones
 Cada propiedad debe contar con un enlace para ver detalles adicionales en una página específica.
 El administrador debe tener la capacidad de agregar, editar y eliminar propiedades desde el backend del sistema.
+
 #### 1.2 Navegación del Sitio Web
 El sistema debe proporcionar un menú de navegación con enlaces funcionales a:
 -Inicio
 -Propiedades
 -Servicios
--Acerca de Contacto
+-Acerca de 
+-Contacto
 El sistema debe permitir la navegación entre páginas de forma fluida y rápida.
 
 #### 1.3 Visualización Detallada de Propiedades
 Al seleccionar una propiedad, se debe redirigir al usuario a una página de detalles que muestre:
 Imagen principal en alta resolución.
+Ubicación detallada.
 Descripción completa de la propiedad.
 Precio de venta.
-Ubicación detallada.
+Número de Habitaciones.
+
 #### 1.4 Formulario de Contacto
 El sistema debe incluir un formulario donde el usuario pueda:
-Ingresar su nombre, correo electrónico, número de contacto y mensaje.
+Ingresar su nombre, correo electrónico y mensaje.
 Enviar el formulario para establecer contacto con la empresa.
-El formulario debe validar campos obligatorios y mostrar mensajes de éxito o error.
+El formulario debe validar campos obligatorios y mostrar un mensaje de éxito.
+
 #### 2. Requerimientos No Funcionales
 Estos establecen las características técnicas y de rendimiento del sistema:
+
 #### 2.1 Rendimiento
 El tiempo de carga de cada página no debe exceder los 3 segundos con conexión estándar.
 Las imágenes de las propiedades deben ser optimizadas para reducir el peso del archivo sin perder calidad.
+
 #### 2.2 Usabilidad
 La interfaz debe ser intuitiva, fácil de navegar y entender por cualquier usuario sin necesidad de capacitación previa.
 Los botones y enlaces deben ser claramente visibles y estar etiquetados adecuadamente.
+
 #### 2.3 Compatibilidad
 El sistema debe ser compatible con los navegadores modernos más utilizados:
 -Google Chrome
@@ -57,13 +65,16 @@ El sistema debe ser compatible con los navegadores modernos más utilizados:
 -Microsoft Edge
 -Safari
 La plataforma debe ser responsiva, ajustándose correctamente a pantallas de computadoras, tablets y dispositivos móviles.
+
 #### 2.4 Seguridad
 Las rutas de los archivos estáticos deben estar protegidas.
 El acceso al backend debe requerir autenticación con usuario y contraseña.
 Validación y sanitización de entradas de datos en formularios para evitar vulnerabilidades como inyección de código.
+
 #### 2.5 Escalabilidad
 El sistema debe permitir la carga de nuevas propiedades sin afectar su rendimiento.
 La arquitectura debe admitir la incorporación de funcionalidades adicionales a futuro, como filtros avanzados o búsqueda de propiedades.
+
 #### 3. Requerimientos de Interfaz de Usuario
 El sistema debe usar una estructura visual clara con los siguientes elementos:
 Colores sobrios y profesionales.
@@ -73,6 +84,7 @@ La sección de propiedades debe mostrar los elementos en una cuadrícula con:
 Imágenes de tamaño uniforme.
 Bordes redondeados y sombreados para destacar cada propiedad.
 Títulos y descripciones alineados.
+
 #### 4. Requerimientos de Sistema
 Framework Backend: El proyecto utilizará Django para gestionar el contenido dinámico y el backend del sistema.
 Archivos Estáticos:
