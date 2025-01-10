@@ -3,7 +3,7 @@
 ## Descripción  
 Es una página web de bienes raíces desarrollada con Django que permite mostrar una lista de propiedades disponibles con sus respectivas imágenes, precios y descripciones. La página incluye un menú de navegación interactivo que facilita el acceso a secciones como inicio, servicios, propiedades y contacto. Las propiedades se presentan en una cuadrícula visualmente atractiva, cada una con detalles básicos y enlaces para obtener más información, ofreciendo una experiencia de usuario moderna y funcional.
 
-### Introduccion 
+### Introducción 
 El presente proyecto consiste en el desarrollo de una página web de bienes raíces utilizando Django, un framework robusto y eficiente para aplicaciones web. La plataforma tiene como objetivo principal exhibir una lista de propiedades disponibles, proporcionando a los usuarios información detallada Además, se incorpora una navegación intuitiva que permite acceder a secciones clave como inicio, servicios, propiedades y contacto, facilitando la interacción y búsqueda de información. Este proyecto busca ofrecer una experiencia visual atractiva y funcional, optimizada para usuarios interesados en adquirir propiedades.
 
 ### Contexto del problema
@@ -104,5 +104,5 @@ El sistema debe usar una estructura visual clara con los siguientes elementos:
 El código debe ser limpio y modular para facilitar actualizaciones.
 El administrador debe poder actualizar la información de propiedades sin conocimientos técnicos avanzados.
 
-#### Modelo Relacional
+### Modelo Relacional
 ![Modelo Relacional Bienes Raices](https://github.com/user-attachments/assets/935e0f4c-5452-46de-a0ab-dd254aeed9ed)
