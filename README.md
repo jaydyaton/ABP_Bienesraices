@@ -109,7 +109,7 @@ El administrador debe poder actualizar la información de propiedades sin conoci
 
 ### Diseño del Proyecto
 #### Guía de Uso para la Página de INFO Bienes Raíces
-   1. Navegación General
+- Navegación General
 La página incluye una barra de navegación visible en todas las secciones, con los siguientes enlaces:
    - Inicio: Regresa a la página principal.
    - Propiedades: Muestra todas las propiedades disponibles.
