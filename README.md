@@ -111,48 +111,49 @@ El administrador debe poder actualizar la información de propiedades sin conoci
 #### Guía de Uso para la Página de INFO Bienes Raíces
 1. Navegación General
 
-La página incluye una barra de navegación visible en todas las secciones, con los siguientes enlaces:
-   - Inicio: Regresa a la página principal.
-   - Propiedades: Muestra todas las propiedades disponibles.
-   - Servicios: Detalla los servicios ofrecidos.
-   - Acerca de: Informa sobre la historia y el equipo de la empresa.
-   - Contacto: Permite enviar un mensaje a través de un formulario.
-   
+   La página incluye una barra de navegación visible en todas las secciones, con los siguientes enlaces:
+      - Inicio: Regresa a la página principal.
+      - Propiedades: Muestra todas las propiedades disponibles.
+      - Servicios: Detalla los servicios ofrecidos.
+      - Acerca de: Informa sobre la historia y el equipo de la empresa.
+      - Contacto: Permite enviar un mensaje a través de un formulario.
+      
 3. Página Principal
-   - Hero Section:
-   Incluye un botón destacado que redirige a la página de Propiedades.
-   - Propiedades Destacadas:
-   Una selección de propiedades
-   Haz clic en Ver detalles para abrir la información completa de cada propiedad.
+- Hero Section:
+Incluye un botón destacado que redirige a la página de Propiedades.
+- Propiedades Destacadas:
+Una selección de propiedades
+Haz clic en Ver detalles para abrir la información completa de cada propiedad.
 
 4. Página de Propiedades
 
-Lista de todas las propiedades disponibles.
-Cada propiedad incluye:
-   - Botón Ver detalles: Redirige a una página con la información completa de la propiedad.
+   Lista de todas las propiedades disponibles.
+
+   Cada propiedad incluye:
+      - Botón Ver detalles: Redirige a una página con la información completa de la propiedad.
    
 6. Página de Servicios
 
-Muestra items con los servicios disponibles:
-   - Compra de Propiedades
-   - Venta de Propiedades
-   - Asesoría Personalizada
-   - Administración de Inmuebles
+   Muestra items con los servicios disponibles:
+      - Compra de Propiedades
+      - Venta de Propiedades
+      - Asesoría Personalizada
+      - Administración de Inmuebles
 
-Cada item tiene un botón Más información: Podrás visualizar una breve descripción del servicio.
-   - Haz clic en Contáctanos para ser redirigido a la página de Contacto.
+   Cada item tiene un botón Más información: Podrás visualizar una breve descripción del servicio.
+      - Haz clic en Contáctanos para ser redirigido a la página de Contacto.
 8. Página Acerca de
 
-Contiene:
-   - Información sobre la historia de la empresa.
-   - Descripcione e imágenes del equipo de trabajo.
+   Contiene:
+      - Información sobre la historia de la empresa.
+      - Descripcione e imágenes del equipo de trabajo.
 9. Página de Contacto
 
-Formulario para que los usuarios se pongan en contacto con la empresa.
+   Formulario para que los usuarios se pongan en contacto con la empresa.
 
-Incluye los campos:
-   - Nombre: Completa con tu nombre.
-   - Correo: Proporciona una dirección de correo válida.
-   - Mensaje: Escribe tu consulta o comentario.
+   Incluye los campos:
+      - Nombre: Completa con tu nombre.
+      - Correo: Proporciona una dirección de correo válida.
+      - Mensaje: Escribe tu consulta o comentario.
 
-Presiona el botón Enviar mensaje: Tu información será enviada y guardada para que el equipo pueda responderte.
+   Presiona el botón Enviar mensaje: Tu información será enviada y guardada para que el equipo pueda responderte.
