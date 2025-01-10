@@ -15,7 +15,6 @@ Los requerimientos se clasifican en funcionales, no funcionales, de interfaz de 
 Estos describen las funcionalidades que el sistema debe cumplir:
 
 #### 1.1 Gestión de Propiedades
-<p>
 El sistema debe permitir la visualización de una lista de propiedades disponibles con la siguiente información:
 -Imagen destacada.
 -Ubicación de la propiedad.
@@ -24,9 +23,9 @@ El sistema debe permitir la visualización de una lista de propiedades disponibl
 -Número de Habitaciones
 Cada propiedad debe contar con un enlace para ver detalles adicionales en una página específica.
 El administrador debe tener la capacidad de agregar, editar y eliminar propiedades desde el backend del sistema.
-</p>
 
 #### 1.2 Navegación del Sitio Web
+<a>
 El sistema debe proporcionar un menú de navegación con enlaces funcionales a:
 -Inicio
 -Propiedades
@@ -34,7 +33,7 @@ El sistema debe proporcionar un menú de navegación con enlaces funcionales a:
 -Acerca de 
 -Contacto
 El sistema debe permitir la navegación entre páginas de forma fluida y rápida.
-
+</a>
 #### 1.3 Visualización Detallada de Propiedades
 Al seleccionar una propiedad, se debe redirigir al usuario a una página de detalles que muestre:
 Imagen principal en alta resolución.
