@@ -17,7 +17,7 @@ Los requerimientos se clasifican en funcionales, no funcionales, de interfaz de 
 #### 1. Requerimientos Funcionales
 Estos describen las funcionalidades que el sistema debe cumplir:
 
-#### 1.1 Gestión de Propiedades
+   #### 1.1 Gestión de Propiedades
 El sistema debe permitir la visualización de una lista de propiedades disponibles con la siguiente información:
 - Imagen destacada.
 - Ubicación de la propiedad.
