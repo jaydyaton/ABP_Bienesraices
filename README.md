@@ -25,15 +25,14 @@ Cada propiedad debe contar con un enlace para ver detalles adicionales en una p�
 El administrador debe tener la capacidad de agregar, editar y eliminar propiedades desde el backend del sistema.
 
 #### 1.2 Navegación del Sitio Web
-<a>
 El sistema debe proporcionar un menú de navegación con enlaces funcionales a:
--Inicio
--Propiedades
--Servicios
--Acerca de 
--Contacto
+- Inicio
+- Propiedades
+- Servicios
+- Acerca de 
+- Contacto
 El sistema debe permitir la navegación entre páginas de forma fluida y rápida.
-</a>
+
 #### 1.3 Visualización Detallada de Propiedades
 Al seleccionar una propiedad, se debe redirigir al usuario a una página de detalles que muestre:
 Imagen principal en alta resolución.
