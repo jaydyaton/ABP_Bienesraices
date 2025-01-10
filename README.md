@@ -35,6 +35,7 @@ El sistema debe proporcionar un menú de navegación con enlaces funcionales a:
 - Servicios
 - Acerca de 
 - Contacto
+
 El sistema debe permitir la navegación entre páginas de forma fluida y rápida.
 
 #### 1.3 Visualización Detallada de Propiedades
@@ -43,7 +44,7 @@ Al seleccionar una propiedad, se debe redirigir al usuario a una página de deta
 - Ubicación detallada.
 - Descripción completa de la propiedad.
 - Precio de venta.
--  Número de Habitaciones.
+- Número de Habitaciones.
 
 #### 1.4 Formulario de Contacto
 El sistema debe incluir un formulario donde el usuario pueda:
