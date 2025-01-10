@@ -98,7 +98,11 @@ El sistema debe usar una estructura visual clara con los siguientes elementos:
    - Imágenes: Almacenadas en una carpeta específica dentro de static/propiedades.
    - Base de Datos:
    - El sistema debe utilizar una base de datos SQLite o PostgreSQL para almacenar la información de propiedades y contactos.
+
    - Hosting: La aplicación debe poder desplegarse en un servidor compatible con Django (Heroku, Digital Ocean, etc.).
 #### 5. Requerimientos de Mantenimiento
 El código debe ser limpio y modular para facilitar actualizaciones.
 El administrador debe poder actualizar la información de propiedades sin conocimientos técnicos avanzados.
+
+#### Modelo Relacional
+![Modelo Relacional Bienes Raices](https://github.com/user-attachments/assets/935e0f4c-5452-46de-a0ab-dd254aeed9ed)
