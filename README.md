@@ -1,4 +1,4 @@
-# ABP_Bienesraices
+# INFO Bienesraices
 ## Proyecto de programación   
 ## Descripción  
 Es una página web de bienes raíces desarrollada con Django que permite mostrar una lista de propiedades disponibles con sus respectivas imágenes, precios y descripciones. La página incluye un menú de navegación interactivo que facilita el acceso a secciones como inicio, servicios, propiedades y contacto. Las propiedades se presentan en una cuadrícula visualmente atractiva, cada una con detalles básicos y enlaces para obtener más información, ofreciendo una experiencia de usuario moderna y funcional.
@@ -11,7 +11,7 @@ En el mercado inmobiliario actual, muchas empresas enfrentan dificultades para e
 Ante esta problemática, surge la necesidad de crear una página web de bienes raíces que permita a las empresas exhibir sus propiedades de forma organizada, atractiva y funcional, facilitando así la conexión entre vendedores y potenciales compradores. Este proyecto busca brindar una solución digital eficiente, eliminando barreras geográficas y optimizando la experiencia del usuario en la búsqueda de propiedades.
 
 ### Analisis de requirimiento
-Requerimientos Exhaustivos del Proyecto "ABP Bienes Raíces"
+Requerimientos Exhaustivos del Proyecto "INFO Bienes Raíces"
 Los requerimientos se clasifican en funcionales, no funcionales, de interfaz de usuario y de sistema para asegurar una descripción técnica clara y estructurada del proyecto.
 
 #### 1. Requerimientos Funcionales
@@ -69,6 +69,7 @@ El sistema debe ser compatible con los navegadores modernos más utilizados:
 - Mozilla Firefox
 - Microsoft Edge
 - Safari
+
 La plataforma debe ser responsiva, ajustándose correctamente a pantallas de computadoras, tablets y dispositivos móviles.
 
 #### 2.4 Seguridad
