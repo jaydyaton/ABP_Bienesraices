@@ -105,7 +105,8 @@ El código debe ser limpio y modular para facilitar actualizaciones.
 El administrador debe poder actualizar la información de propiedades sin conocimientos técnicos avanzados.
 
 ### Modelo Relacional
-![Modelo Relacional Bienes Raices](https://github.com/user-attachments/assets/935e0f4c-5452-46de-a0ab-dd254aeed9ed)
+![image](https://github.com/user-attachments/assets/53edc79d-140b-40ac-8581-143844da730a)
+
 
 ### Diseño del Proyecto
 #### Guía de Uso para la Página de INFO Bienes Raíces
