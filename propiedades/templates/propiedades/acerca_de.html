@@ -1,0 +1,231 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'propiedades/estilos.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> <!-- Fuente Poppins -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Acerca de - ABP Bienes Raíces</title>
+    <style>
+        /* Estilo para la sección Acerca de */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            background: linear-gradient(45deg, #16a085, #1abc9c);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .navbar .logo {
+            font-size: 1.8em;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links li a:hover {
+            background-color: #34495e;
+            transform: translateY(-3px); /* Efecto de desplazamiento */
+        }
+
+        .nav-links li a i {
+            font-size: 1.3em; /* Aumento del tamaño de los iconos */
+        }
+
+        .about-header {
+            text-align: center;
+            padding: 100px 20px 50px;
+            background-color: #2c3e50;
+            color: white;
+
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: justify;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .team-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .team-section h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .team-member {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .team-member h3 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .team-member p {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            font-size: 1em;
+        }
+        @media (max-width: 768px) {
+            .navbar nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .nav-links li a {
+                font-size: 1.4em;
+                padding: 10px 20px;
+                width: 100%;
+                text-align: left;
+            }
+
+            .navbar .logo {
+                font-size: 2.2em;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header class="navbar">
+        <nav>
+            <div class="logo">
+                INFO Bienes Raíces
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'inicio' %}"><i class="fas fa-home"></i>Inicio</a></li>
+                <li><a href="{% url 'propiedades' %}"><i class="fas fa-building"></i>Propiedades</a></li>
+                <li><a href="{% url 'servicios' %}"><i class="fas fa-cogs"></i>Servicios</a></li>
+                <li><a href="{% url 'acerca_de' %}"><i class="fas fa-info-circle"></i>Acerca de</a></li>
+                <li><a href="{% url 'contacto' %}"><i class="fas fa-phone"></i>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Encabezado -->
+    <section class="about-header">
+        <h1>Acerca de Nosotros</h1>
+        <p>Conoce quiénes somos y nuestra misión en ABP Bienes Raíces.</p>
+    </section>
+
+    <!-- Contenido principal -->
+    <section class="about-content">
+        <h2>Nuestra Historia</h2>
+        <p>
+            En ABP Bienes Raíces, llevamos más de 10 años ayudando a familias y empresas a encontrar propiedades que se ajusten a sus necesidades.
+            Nuestra empresa nació con el propósito de facilitar el acceso a inmuebles de alta calidad, a través de un servicio transparente y personalizado.
+        </p>
+        <p>
+            Desde nuestros inicios, hemos trabajado con dedicación para posicionarnos como líderes en el mercado inmobiliario,
+            garantizando confianza y satisfacción a nuestros clientes.
+        </p>
+    </section>
+
+    <!-- Equipo -->
+    <section class="team-section">
+        <h2>Conoce a Nuestro Equipo</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="{% static 'propiedades/CEO.jpg' %}" alt="CEO">
+                <h3>Monika Coello</h3>
+                <p>Director Ejecutivo</p>
+            </div>
+            <div class="team-member">
+                <img src="{% static 'propiedades/Gerente.jpg' %}" alt="Gerente">
+                <h3>Victoria Mora</h3>
+                <p>Gerente General</p>
+            </div>
+            <div class="team-member">
+                <img src="{% static 'propiedades/Asesor.jpg' %}" alt="Asesor">
+                <h3>Jaydy Guzmán</h3>
+                <p>Asesor Inmobiliario</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 INFO Bienes Raíces. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
