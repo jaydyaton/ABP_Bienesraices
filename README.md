@@ -24,6 +24,7 @@ El sistema debe permitir la visualización de una lista de propiedades disponibl
 - Precio de venta.
 - Descripción breve.
 - Número de Habitaciones
+
 Cada propiedad debe contar con un enlace para ver detalles adicionales en una página específica.
 El administrador debe tener la capacidad de agregar, editar y eliminar propiedades desde el backend del sistema.
 
