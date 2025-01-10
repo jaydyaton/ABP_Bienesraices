@@ -105,8 +105,9 @@ El código debe ser limpio y modular para facilitar actualizaciones.
 El administrador debe poder actualizar la información de propiedades sin conocimientos técnicos avanzados.
 
 ### Modelo Relacional
-![image](https://github.com/user-attachments/assets/53edc79d-140b-40ac-8581-143844da730a)
 
+![image](https://github.com/user-attachments/assets/53edc79d-140b-40ac-8581-143844da730a)
+![Modelo Relacional Bienes Raices](https://github.com/user-attachments/assets/d0557a57-00ef-40bd-b23c-0bd8911c3236)
 
 ### Diseño del Proyecto
 #### Guía de Uso para la Página de INFO Bienes Raíces
@@ -118,7 +119,8 @@ El administrador debe poder actualizar la información de propiedades sin conoci
       - Servicios: Detalla los servicios ofrecidos.
       - Acerca de: Informa sobre la historia y el equipo de la empresa.
       - Contacto: Permite enviar un mensaje a través de un formulario.
-      
+   
+
 3. Página Principal
 - Hero Section:
 Incluye un botón destacado que redirige a la página de Propiedades.
